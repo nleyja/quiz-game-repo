@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  border: 2px solid green;
+  padding: 0;
+  margin: 5px;
+  display: flex;
+  height: 200px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-container {
+  border: 2px solid blue;
+  height: 175px;
+  width: 250px;
+  background-color: yellow;
+
+}
+
+.button {
+  display: grid;
+  margin-top: 30px;
+  height: 30px;
+  grid-column: repeat(2 auto);
+  background: red;
+
+}
