@@ -7,15 +7,15 @@
 // reset or reload the game with button to start over. 
 
 
-const buttonPress = document.querySelectorAll(".button");
+const buttonPress = document.querySelector(".button");
 const containerChange = document.querySelector(".question-container");
+const rightAnswerButton = document.querySelectorAll(".right-answer");
+const wrongAnswerButton = document.querySelectorAll(".wrong-answer");
 
-const handleButtonPress = (event) => {
-  if(buttonPress.innerHTML = "Earth"){
+const handleCorrectAnswerPress = (event) => {
     containerChange.style.backgroundColor = "green";
-  } else {
-    containerChange.style.backgroundColor = "red";
-  }
+    buttonPress.style.backgroundColor = "green";
+  
   
   // event.target.style.backgroundColor = "green"
   // document.body.style.backgroundColor = "green"
@@ -23,6 +23,21 @@ const handleButtonPress = (event) => {
    
 };
 
-for (let i = 0; i < buttonPress.length; i++) {
-  buttonPress[i].addEventListener("click", handleButtonPress);
+for (let i = 0; i < rightAnswerButton.length; i++) {
+  rightAnswerButton[i].addEventListener("click", handleCorrectAnswerPress);
+};
+
+const handleWrongAnswerPress = (event) => {
+  containerChange.style.backgroundColor = "red";
+  buttonPress.style.backgroundColor = "red";
+
+
+// event.target.style.backgroundColor = "green"
+// document.body.style.backgroundColor = "green"
+
+ 
+};
+
+for (let i = 0; i < wrongAnswerButton.length; i++) {
+wrongAnswerButton[i].addEventListener("click", handleWrongAnswerPress);
 };

@@ -6,27 +6,50 @@
 body {
   border: 2px solid green;
   padding: 0;
-  margin: 5px;
+  margin: 0;
   display: flex;
-  height: 200px;
-  width: 300px;
+  height: 100vh;
+  width: 100vw;
   justify-content: center;
   align-items: center;
+  background-color: #9edff2;
 }
 
 .question-container {
-  border: 2px solid blue;
-  height: 175px;
-  width: 250px;
-  background-color: yellow;
+  max-width: 80%;
+  width: 600px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
 
 }
 
-.button {
+.button-grid {
   display: grid;
-  margin-top: 30px;
-  height: 30px;
-  grid-column: repeat(2 auto);
-  background: red;
+  margin: 30px 0;
+  grid-template-columns: repeat(2, auto);
+  background: white;
+  gap: 10px;
+  
 
+}
+
+.wrong-answer {
+  border-radius: 5px;
+  padding: 5px 20px;
+  
+}
+
+.right-answer {
+  border-radius: 5px;
+  padding: 5px 20px;
+  
+}
+.wrong-answer:hover {
+  background-color: #fec438;
+}
+
+.right-answer:hover {
+  background-color: #fec438;
 }
