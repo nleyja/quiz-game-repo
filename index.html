@@ -1,38 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header><h1 id="top">Random Quiz game</h1>
-  </header>
-  <div class="container">
-    <div class="question-container"> <p>Which planet is closet to the sun?</p>
-      <div class="button-grid">
-        <button class="wrong-answer">Earth</button>
-        <button class="wrong-answer"> Saturn</button>
-        <button class="right-answer">Mercury</button>
-        <button class="wrong-answer">Mars</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1 id="top">Random Quiz game</h1></header>
+    <div class="container">
+      <div class="container">
+      <div class="question-container">
+        <p>Which planet is closet to the sun?</p>
+        <div class="button-grid">
+          <button class="wrong-answer-one">Earth</button>
+          <button class="wrong-answer-one">Saturn</button>
+          <button class="right-answer-one">Mercury</button>
+          <button class="wrong-answer-one">Mars</button>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="question-container-two">
+        <p>According to Greek mythology, who was the first woman on earth?</p>
+        <div class="button-grid-two">
+          <button class="right-answer-two">Pandora</button>
+          <button class="wrong-answer-two">Athena</button>
+          <button class="wrong-answer-two">Rhea</button>
+          <button class="wrong-answer-two">Aphrodite</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="question-container-three">
+        <p>Who said the famous quote "Knowlege is Power"?</p>
+        <div class="button-grid-three">
+          <button class="wrong-answer-three">Shakespeare</button>
+          <button class="right-answer-three">Sir Francis Bacon</button>
+          <button class="wrong-answer-three">Benjamin Franklin</button>
+          <button class="wrong-answer-three">Theodore Roosevelt</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="question-container-four">
+        <p>How many years would it take to travel to the nearest star? (Proxima Centauri)</p>
+        <div class="button-grid-four">
+          <button class="wrong-answer-four">73 years</button>
+          <button class="wrong-answer-four">730 years</button>
+          <button class="wrong-answer-four">7,300 years</button>
+          <button class="right-answer-four">73,000 years</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="question-container-five">
+        <p>What does the "i" in iPhone stand for?</p>
+        <div class="button-grid-five">
+          <button class="wrong-answer-five">iOS</button>
+          <button class="wrong-answer-five">internetworking</button>
+          <button class="right-answer-five">individual, instruct, inform, and inspire</button>
+          <button class="wrong-answer-five">internet of things</button>
+        </div>
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="question-container"> <p>According to Greek mythology, who was the first woman on earth?</p>
-      <div class="button-grid">
-        <button class="right-answer">Pandora</button>
-        <button class="wrong-answer">Athena</button>
-        <button class="wrong-answer"> Rhea</button>
-        <button class="wrong-answer">Aphrodite</button>
-      </div>
+    <div>
+      <button class="reset-button" onclick="window.location.reload()">Reset Questions</button>
     </div>
-  </div>
-  <div>
-    <button onclick="window.location.reload()">Reset Questions</button>
-  </div>
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
