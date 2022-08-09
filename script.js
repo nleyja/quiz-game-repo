@@ -20,11 +20,12 @@ const rightAnswerButtonFive = document.querySelector(".right-answer-five");
 const wrongAnswerButtonFive = document.querySelectorAll(".wrong-answer-five");
 
 const handleCorrectAnswerPress = (event) => {
+
+  // const element = event.target
     containerChange.style.backgroundColor = "green";
     bgButtonColor1.style.backgroundColor = "green";
-    
-    
-    
+
+  
   // event.target.style.backgroundColor = "green"
   // document.body.style.backgroundColor = "green"
 };
@@ -32,6 +33,21 @@ const handleCorrectAnswerPress = (event) => {
 rightAnswerButtonOne.addEventListener("click", handleCorrectAnswerPress);
   
 
+// const handleWrongAnswerPress2 = (event) => {
+//     const element = event.target;
+//     parent = element.parentElement;
+//     parent.classList.remove("correct");
+//     parent.classList.add("incorrect");
+
+  
+  
+
+  
+
+// //event.target.style.backgroundColor = "green"
+// // document.body.style.backgroundColor = "green"
+
+// };
 const handleWrongAnswerPress = (event) => {
   containerChange.style.backgroundColor = "red";
   bgButtonColor1.style.backgroundColor = "red";
