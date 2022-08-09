@@ -1,0 +1,95 @@
+.question-container {
+  max-width: 80%;
+  width: 600px;
+  background-color: $color-primary;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+  margin: 25px;
+}
+
+
+.question-container-two {
+  max-width: 80%;
+  width: 600px;
+  background-color: $color-primary;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+  margin: 25px;
+
+}
+
+.question-container-three {
+  max-width: 80%;
+  width: 600px;
+  background-color: $color-primary;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+  margin: 25px;
+
+}
+
+.question-container-four {
+  max-width: 80%;
+  width: 600px;
+  background-color: $color-primary;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+  margin: 25px;
+
+}
+
+.question-container-five {
+  max-width: 80%;
+  width: 600px;
+  background-color: $color-primary;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+  margin: 25px;
+
+}
+
+
+.button-grid {
+  display: grid;
+  margin: 30px 0;
+  grid-template-columns: repeat(2, auto);
+  background: $color-primary;
+  gap: 10px;
+}
+
+.button-grid-two {
+  display: grid;
+  margin: 30px 0;
+  grid-template-columns: repeat(2, auto);
+  background: $color-primary;
+  gap: 10px;
+}
+
+.button-grid-three {
+  display: grid;
+  margin: 30px 0;
+  grid-template-columns: repeat(2, auto);
+  background: $color-primary;
+  gap: 10px;
+}
+
+.button-grid-four {
+  display: grid;
+  margin: 30px 0;
+  grid-template-columns: repeat(2, auto);
+  background: $color-primary;
+  gap: 10px;
+}
+
+.button-grid-five {
+  display: grid;
+  margin: 30px 0;
+  grid-template-columns: repeat(2, auto);
+  background: $color-primary;
+  gap: 10px;
+}
