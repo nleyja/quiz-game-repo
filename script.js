@@ -1,12 +1,3 @@
-// when you press answer button, container will change 
-//to green or red depending on whether or not you select the correct answer.
-
-// first get the button press to trigger the color change of container.
-// assign green color to correct answer and red color to wrong answers.
-
-// reset or reload the game with button to start over. 
-
-
 const bgButtonColor1 = document.querySelector(".button-grid");
 const bgButtonColor2 = document.querySelector(".button-grid-two");
 const bgButtonColor3 = document.querySelector(".button-grid-three");
@@ -32,7 +23,8 @@ const handleCorrectAnswerPress = (event) => {
     containerChange.style.backgroundColor = "green";
     bgButtonColor1.style.backgroundColor = "green";
     
-  
+    
+    
   // event.target.style.backgroundColor = "green"
   // document.body.style.backgroundColor = "green"
 };
@@ -43,6 +35,10 @@ rightAnswerButtonOne.addEventListener("click", handleCorrectAnswerPress);
 const handleWrongAnswerPress = (event) => {
   containerChange.style.backgroundColor = "red";
   bgButtonColor1.style.backgroundColor = "red";
+  
+  
+
+  
 
 //event.target.style.backgroundColor = "green"
 // document.body.style.backgroundColor = "green"
